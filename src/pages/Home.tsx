@@ -7,7 +7,7 @@ function Home(): ReactElement {
 
   const handleClickReturnHandler = (): void => {
     window.top.location.replace(
-      `${redirectUrl}modules/payment-handler/?paykey=stella`
+      `${redirectUrl}#/modules/payment-handler/?paykey=stella`
     )
   }
 
