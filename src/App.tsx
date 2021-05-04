@@ -1,5 +1,5 @@
 import React from 'react'
-import {Switch, Route, Link, HashRouter} from 'react-router-dom'
+import { Switch, Route, HashRouter } from 'react-router-dom'
 import Home from './pages/Home'
 import Sub1 from './pages/Sub1'
 import Sub2 from './pages/Sub2'
@@ -10,14 +10,18 @@ const Styled = {
     position: relative;
     width: 100%;
     height: 100vh;
+    background-color: rgba(38, 45, 57, 0.72);
   `,
 
   Container: styled.div`
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 500px;
-    background-color: gainsboro;
+    background-color: #fff;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 0;
   `,
 }
 
@@ -26,14 +30,6 @@ function App() {
     <Styled.Wrap>
       <Styled.Container>
         <HashRouter>
-          <ul>
-            <li>
-              <Link to='/sub1'>충전</Link>
-            </li>
-            <li>
-              <Link to='/sub2'>쿠폰 등록</Link>
-            </li>
-          </ul>
           <Switch>
             <Route path='/' component={Home} exact />
             <Route path='/sub1' component={Sub1} />
