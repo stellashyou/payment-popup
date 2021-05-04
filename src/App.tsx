@@ -25,7 +25,7 @@ function App() {
   return (
     <Styled.Wrap>
       <Styled.Container>
-        <Router basename='/stella-js/payment-popup/'>
+        <Router basename='/payment-popup/'>
           <ul>
             <li>
               <Link to='/'>Home</Link>

@@ -50,5 +50,5 @@
     "prettier": "^2.2.1",
     "@types/styled-components": "^5.1.9"
   },
-  "homepage" : "https://pages.github.kakaocorp.com/stella-js/payment-popup/"
+  "homepage" : "https://stellashyou.github.io/payment-popup/"
 }
