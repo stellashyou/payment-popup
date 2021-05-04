@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/stella-js/payment-popup/static/css/main.d24d1037.chunk.css",
+    "main.js": "/stella-js/payment-popup/static/js/main.879c9ed4.chunk.js",
+    "main.js.map": "/stella-js/payment-popup/static/js/main.879c9ed4.chunk.js.map",
+    "runtime-main.js": "/stella-js/payment-popup/static/js/runtime-main.94f6995f.js",
+    "runtime-main.js.map": "/stella-js/payment-popup/static/js/runtime-main.94f6995f.js.map",
+    "static/js/2.9d08b7b5.chunk.js": "/stella-js/payment-popup/static/js/2.9d08b7b5.chunk.js",
+    "static/js/2.9d08b7b5.chunk.js.map": "/stella-js/payment-popup/static/js/2.9d08b7b5.chunk.js.map",
+    "static/js/3.f67fccc8.chunk.js": "/stella-js/payment-popup/static/js/3.f67fccc8.chunk.js",
+    "static/js/3.f67fccc8.chunk.js.map": "/stella-js/payment-popup/static/js/3.f67fccc8.chunk.js.map",
+    "index.html": "/stella-js/payment-popup/index.html",
+    "static/css/main.d24d1037.chunk.css.map": "/stella-js/payment-popup/static/css/main.d24d1037.chunk.css.map",
+    "static/js/2.9d08b7b5.chunk.js.LICENSE.txt": "/stella-js/payment-popup/static/js/2.9d08b7b5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.94f6995f.js",
+    "static/js/2.9d08b7b5.chunk.js",
+    "static/css/main.d24d1037.chunk.css",
+    "static/js/main.879c9ed4.chunk.js"
+  ]
+}
