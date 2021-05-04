@@ -1,5 +1,5 @@
 import React from 'react'
-import {BrowserRouter as Router, Switch, Route, Link, HashRouter} from 'react-router-dom'
+import {Switch, Route, Link, HashRouter} from 'react-router-dom'
 import Home from './pages/Home'
 import Sub1 from './pages/Sub1'
 import Sub2 from './pages/Sub2'
@@ -28,13 +28,10 @@ function App() {
         <HashRouter>
           <ul>
             <li>
-              <Link to='/'>Home</Link>
+              <Link to='/sub1'>충전</Link>
             </li>
             <li>
-              <Link to='/sub1'>sub1</Link>
-            </li>
-            <li>
-              <Link to='/sub2'>sub2</Link>
+              <Link to='/sub2'>쿠폰 등록</Link>
             </li>
           </ul>
           <Switch>
