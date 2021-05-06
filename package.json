@@ -1,5 +1,5 @@
 {
-  "name": "payment-popup",
+  "name": "xc-60",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -50,5 +50,5 @@
     "prettier": "^2.2.1",
     "@types/styled-components": "^5.1.9"
   },
-  "homepage" : "https://stellashyou.github.io/payment-popup/"
+  "homepage" : "https://stellashyou.github.io/xc-60/"
 }
